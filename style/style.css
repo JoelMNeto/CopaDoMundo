@@ -1,0 +1,1070 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho__home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__desktop__home{
+    display: none;
+}
+
+.img__cabecalho__mobile__home{
+    display: none;
+}
+
+.titulo__home{
+    display: none;
+}
+
+.main__home{
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    background-color: #191970;
+    height: 72.9vh;
+}
+
+.rodape__home{
+    font-family: 'Sarala', sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #0f0f48;
+    color: white;
+    padding: 2.9rem;
+}
+
+.cabecalho__historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__menu__historia{
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+}
+
+.img__cabecalho__mobile__historia{
+    height: 45px;
+}
+
+.img__historia{
+    width: 400px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.main__historia{
+    background-color: #191970;
+}
+
+.contexto__historia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    /*margin-top: 2%;*/
+    margin-left: 17%;
+    padding-top: 25px;
+}
+
+.introducao__historia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+
+.surgimento__historia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+
+.evolucao__historia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 17%;
+    padding-bottom: 25px;
+}
+
+.paragrafo__historia{
+    max-width: 400px;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.titulo__contexto__historia{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+
+.subtitulo__historia{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+
+.menu__mobile{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    /*
+    margin-left: 17%;
+    */
+}
+
+.imagem__menu__mobile{
+    width: 50px;
+    height: 50px;
+}
+
+.menu__desktop__historia{
+    display: none;
+}
+
+.imagem__rodape__desktop__historia{
+    display: none;
+}
+
+.cabecalho__vencedores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__vencedores{
+    background-color: #191970;
+}
+
+.container__menu__vencedores{
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+}
+
+.subtitulo__vencedores, .titulo__contexto__vencedores{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+
+.paragrafo__vencedores{
+    width: 90%;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.paragrafo__contexto__vencedores{
+    width: 90%;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.titulo__contexto__vencedores{
+    margin-top: 6%;
+}
+
+.subtitulo__vencedores{
+    margin-left: 33%;
+}
+
+.menu__desktop__vencedores{
+    display: none;
+}
+
+.inglaterra__vencedores, .espanha__vencedores, .uruguai__vencedores, .franca__vencedores, .argentina__vencedores, .italia__vencedores, .alemanha__vencedores, .brasil__vencedores{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+.contexto__vencedores{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 11%;
+}
+
+.brasil__vencedores{
+    padding-bottom: 4%;
+}
+
+.img__cabecalho__mobile__vencedores{
+    height: 45px;
+}
+
+.img__vencedores, .img__inglaterra_mobile_vencedores, .img__espanha__mobile__vencedores, .img__uruguai__mobile__vencedores, .img__franca__mobile__vencedores, .img__argentina__mobile__vencedores, .img__italia__mobile__vencedores, .img__alemanha__mobile__vencedores, .img__brasil__mobile__vencedores{
+    width: 70%;
+    height: 70%;
+    margin-left: 9%;
+    padding: 1%;
+}
+
+.img__rodape__desktop__vencedores{
+    height: 75px;
+}
+
+.img__rodape__desktop__vencedores{
+    display: none;
+}
+
+.menu__mobile__vencedores{
+    display: flex;
+    gap: 35px;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: center;
+    /*margin-left: 17%;*/
+    margin-bottom: 5%;
+}
+
+.cabecalho__gols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__menu__gols{
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+}
+
+.main__gols{
+   background-color: #191970;
+   width: 100%;
+}
+
+.menu__mobile__gols{
+    display: flex;
+    gap: 35px;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: center;
+    /*margin-left: 17%;*/
+    margin-bottom: 5%;
+}
+
+.container__gols{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    /*margin-top: 4%;*/
+    margin-left: 19%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.menu__desktop__gols{
+    display: none;
+}
+
+.imagem__rodape__desktop__gols{
+    height: 75px;
+    display: none;
+}
+
+.img__cabecalho__mobile__gols{
+    height: 45px;
+}
+
+.img__menu__mobile__gols{
+    width: 50px;
+    height: 50px;
+}
+
+.img__gols{
+    width: 75%;
+    height: 75%;
+}
+
+.paragrafo__gols, .titulo__gols{
+    color: white;
+    width: 75%;
+    font-family: 'Sarala', sans-serif;
+}
+
+.link__gols{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+}
+
+.cabecalho__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__menu__form{
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__cabecalho__mobile__form{
+    height: 45px;
+}
+
+.menu__desktop__form{
+    display: none;
+}
+
+.main__form{
+    background-color: #191970;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+}
+
+.titulo__form{
+    padding: 2%;
+}
+
+.imagem__form{
+    width: 60%;
+    height: 60%;
+    padding: 2%;
+    padding-top: 0;
+}
+
+.conteudo__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.informacoes__form{
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.item__informacoes__form{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input__informacoes__form{
+    width: 80%;
+    padding: 1%;
+    font-size: 18px;
+    background-color: #191970;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.label__informacoes__form{
+    width: 20%;
+}
+
+.perguntas__form{
+    width: 80%;
+    font-size: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.item__pergunta__form{
+    padding-top: 2%;
+}
+
+.botoes__form{
+    padding: 4%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item__botao__form{
+    width: 150px;
+    padding: 1%;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #191970;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.imagem__rodape__desktop__form{
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+    .cabecalho__home{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu__home{
+        display: flex;
+        padding: 5%;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main__home{
+        display: flex;
+        padding: 20%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        height: 73.3vh;
+    }
+
+    .menu__desktop__home{
+        display: flex;
+        gap: 30px;
+    }
+
+    .item__menu_desktop__home{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .titulo__home{
+        display: block;
+        padding: 5%;
+        font-size: 32px;
+        color: white;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    .imagem__home{
+        height: 100%;
+    }
+    
+    .img__cabecalho__mobile__home{
+        display: inline;
+        height: 45px;
+    }
+
+    .rodape__home{
+        padding: 5%;
+    }
+
+    .menu__mobile{
+        display: none;
+    }
+
+    .rodape__historia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__historia{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+    
+    /*.imagem__rodape__desktop__historia{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 40%;
+    }*/
+
+    .menu__desktop__historia{
+        display: flex;
+        gap: 30px;
+    }
+
+    .cabecalho__historia{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu__historia{
+        display: flex;
+        padding: 5%;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    /*.container__menu__historia{
+        display: flex;
+        padding: 10%;
+        margin: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }*/
+    
+    .item__menu__desktop__historia{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    .contexto__historia{
+        margin-left: 28%;
+    }
+    
+    .introducao__historia{
+        margin-left: 28%;
+    }
+    
+    .surgimento__historia{
+        margin-left: 28%;
+    }
+    
+    .evolucao__historia{
+        margin-left: 28%;
+    }
+
+    .menu__desktop__vencedores{
+        display:flex;
+    }
+
+    .cabecalho__vencedores{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu__vencedores{
+        display: flex;
+        padding: 5%;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /*.container__menu__vencedores{
+        display: flex;
+        padding: 10%;
+        margin: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }*/
+
+    .menu__desktop__vencedores{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .item__menu_desktop__vencedores{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .menu__mobile__vencedores{
+        display: none;
+    }
+
+    .rodape__vencedores{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img__rodape__desktop__vencedores{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+    /*.img__rodape__desktop__vencedores{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 40%;
+    }*/
+
+    .subtitulo__vencedores{
+        margin-left: 37%;
+    }
+
+    .titulo__contexto__vencedores{
+        margin-left: 9%;
+    }
+
+    .paragrafo__contexto__vencedores{
+        margin-left: 7%;
+    }
+
+    .menu__desktop__gols{
+        display: flex;
+    }
+
+    .cabecalho__gols{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu__gols{
+        display: flex;
+        padding: 5%;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /*.container__menu__gols{
+        display: flex;
+        padding: 10%;
+        margin: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }*/
+
+    .item__menu__desktop__gols{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .menu__desktop__gols{
+        display: flex;
+        gap: 30px;
+    }
+
+    .menu__mobile__gols{
+        display: none;
+    }
+
+    .rodape__gols{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__gols{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+    /*.imagem__rodape__desktop__gols{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 40%;
+    }*/
+
+    .cabecalho__form{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu__form{
+        display: flex;
+        padding: 5%;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .menu__desktop__form{
+        display: flex;
+        gap: 30px;
+    }
+
+    .item__menu_desktop__form{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .rodape__form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__form{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+}
+
+@media screen and (min-width: 900px){
+    
+    .cabecalho__home{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .container__menu__home{
+        display: flex;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .main__home{
+        padding: 12rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 72.9vh;
+    }
+
+    .menu__desktop__home{
+        display: flex;
+        gap: 30px;
+    }
+
+    .item__menu_desktop__home{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .titulo__home{
+        display: block;
+        padding: 5%;
+        font-size: 48px;
+        color: white;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    .imagem__home{
+        height: 100%;
+    }
+    
+    .img__cabecalho__mobile__home{
+        display: inline;
+        height: 45px;
+    }
+
+    .rodape__home{
+        padding: 2.2rem;
+    }
+
+    .menu__mobile{
+        display: none;
+    }
+
+    .rodape__historia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__historia{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+    /*
+    .imagem__rodape__desktop__historia{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 41%;
+    }*/
+    
+    .menu__desktop__historia{
+        display: flex;
+        gap: 30px;
+    }
+
+    .cabecalho__historia{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .container__menu__historia{
+        display: flex;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        /*display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        margin-right: 64%;*/
+    }
+    
+    .paragrafo__historia{
+        max-width: 700px;
+    }
+    
+    .titulo__contexto__historia{
+        margin-left: 240px;
+    }
+    
+    .img__cabecalho__mobile__historia{
+        height: 45px;
+    }
+    
+    .contexto__historia{
+        margin-left: 22%;
+    }
+    
+    .introducao__historia{
+        margin-left: 22%;
+    }
+    
+    .surgimento__historia{
+        margin-left: 22%;
+    }
+    
+    .evolucao__historia{
+        margin-left: 22%;
+    }
+    
+    .item__menu__desktop__historia{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    .img__historia{
+        width: 700px;
+        height: 550px;
+        margin-left: 10px;
+    }
+    
+    .subtitulo__historia{
+        margin-left: 240px;
+    }
+    
+    .paragrafo__historia{
+        margin-left: 20px;
+    }
+
+    .menu__mobile__vencedores{
+        display: none;
+    }
+
+    .rodape__vencedores{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img__rodape__desktop__vencedores{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+    /*
+    .img__rodape__desktop__vencedores{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 41%;
+    }*/
+
+    .menu__desktop__vencedores{
+        display: flex;
+        gap: 30px;
+    }
+
+    .cabecalho__vencedores{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .container__menu__vencedores{
+        display: flex;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        /*display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        margin-right: 64%;*/
+    }
+
+    .item__menu_desktop__vencedores{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .subtitulo__vencedores{
+        margin-left: 39%;
+    }
+
+    .menu__mobile__gols{
+        display: none;
+    }
+
+    .rodape__gols{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__gols{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+    /*
+    .imagem__rodape__desktop__gols{
+        display: flex;
+        height: 75px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 41%;
+    }*/
+
+    .menu__desktop__gols{
+        display: flex;
+        gap: 30px;
+    }
+
+    .cabecalho__gols{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .container__menu__gols{
+        display: flex;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        /*display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        margin-right: 62%;
+        margin-bottom: 1%;*/
+    }
+
+    .item__menu__desktop__gols{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .img__cabecalho__mobile__gols{
+        height: 45px;
+    }
+    
+    /*.container__gols{
+        margin-top: 2%;
+    }*/
+
+    .cabecalho__form{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .container__menu__form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .menu__desktop__form{
+        display: flex;
+        gap: 30px;
+    }
+
+    .item__menu_desktop__form{
+        text-decoration: none;
+        color: #191970;
+        font-family: 'Sarala', sans-serif;
+    }
+
+    .rodape__form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__rodape__desktop__form{
+        display: flex;
+        height: 45px;
+        margin: 2%;  
+    }
+
+}
